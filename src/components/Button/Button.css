@@ -1,0 +1,30 @@
+button {
+   border-radius: 2px;
+   color: white;
+   padding: 5px 25px;
+}
+
+.button-primary {
+    background-color: blue;
+    border: blue;
+}
+
+.button-danger {
+background-color: #ff4858;
+border: #ff4858;
+}
+
+.button-warning {
+background-color: #ffc600;
+border: #ffc600;
+}
+
+.button-default {
+    background-color: black;
+    border: black;
+}
+
+.button-success {
+    background-color: green;
+    border: green;
+}
