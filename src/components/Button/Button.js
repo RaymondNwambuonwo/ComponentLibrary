@@ -18,6 +18,7 @@ const Button = (props) => {
 
     
    return <button className={classList}>
+       <img src={props.icon}></img>
         {props.label}
     </button>
 }

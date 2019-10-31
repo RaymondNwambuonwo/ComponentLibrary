@@ -1,7 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import Button from './Button';
+import cart from './cart2.png';
+import heart from './heart.png';
 
 
 storiesOf('Button', module) //where we are naming our group of stories
@@ -42,4 +43,7 @@ storiesOf('Button', module) //where we are naming our group of stories
     .add('Large Default Blend', () => <Button label="Do Something" type="default-blend"/>)
     .add('Large Success Blend', () => <Button label="Do Something" type="success-blend"/>)
     
-    //first primary is name of story and second primary is text in button
+    .add('Carty Icon Words', () => <Button label="Add to Cart" type="primary-blend" icon={cart}/>)
+    .add('Hearty Icon Words', () => <Button label="Add to Favorites" type="primary-blend" icon={heart}/>)
+    .add('Cart Icon button', () => <Button type="primary-blend" icon={cart}/>)
+    .add('Heart Icon Button', () => <Button type="primary-blend"icon={heart}/>)
