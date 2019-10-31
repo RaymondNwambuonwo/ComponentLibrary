@@ -1,30 +1,123 @@
 button {
-   border-radius: 2px;
-   color: white;
-   padding: 5px 25px;
+ border-radius: 2px;
+ color: white;
+ padding: 5px 25px;
 }
 
 .button-primary {
-    background-color: blue;
-    border: blue;
+ background-color: #33A0FF;
+ border: #33A0FF;
+}
+
+.button-primary:hover {
+ background-color: #2E90E5;
+ border: #33A0FF;
 }
 
 .button-danger {
 background-color: #ff4858;
-border: #ff4858;
+border: #33A0FF;
+}
+
+.button-danger:hover {
+ background-color: #F53848;
+ border: #33A0FF;
 }
 
 .button-warning {
 background-color: #ffc600;
-border: #ffc600;
+border: #33A0FF;
+}
+
+.button-warning:hover {
+ background-color: #EBB600;
+ border: #33A0FF;
 }
 
 .button-default {
-    background-color: black;
-    border: black;
+ background-color: #22262A;
+ border: #33A0FF;
+}
+
+.button-default:hover {
+ background-color: black;
+ border: #13161A;
 }
 
 .button-success {
-    background-color: green;
-    border: green;
+ background-color: #0AD00A;
+ border: #33A0FF;
+}
+
+.button-success:hover {
+ background-color: #07C107;
+ border: #33A0FF;
+}
+
+.button-large {
+ padding: 10px 50px;
+}
+
+/*outlines below*/
+.button-outline {
+ background-color: #FFFFFF;
+}
+
+/*outlines below*/
+
+.button-outline-primary {
+    border: #33A0FF 1px solid;
+    color: #33A0FF;
+}
+
+.button-outline-danger {
+    border: #ff4858 1px solid;
+    color: #ff4858;
+}
+
+.button-outline-warning {
+    border: #ffc600 1px solid;
+    color: #ffc600;
+}
+
+.button-outline-default {
+    border: #22262A 1px solid;
+    color: #22262A;
+}
+
+.button-outline-success {
+    border: #0AD00A 1px solid;
+    color: #0AD00A;
+}
+
+
+/*blends below*/
+.button-primary-blend {
+    background-color: #EAF2FD;
+    border: #EAF2FD;
+    color: #43A7FF;
+}
+
+.button-danger-blend {
+    background-color: #FFECEE;
+    border: #FFECEE;
+    color: #FF5967;
+}
+
+.button-warning-blend {
+    background-color: #FFF6E3;
+    border: #FFF6E3;
+    color: #FFCB19;
+}
+
+.button-default-blend {
+    background-color: #F6F4F6;
+    border: #F6F4F6;
+    color: #424246;
+}
+
+.button-success-blend {
+    background-color: #E6F7E4;
+    border: #E6F7E4;
+    color: #0ECE0C;
 }
