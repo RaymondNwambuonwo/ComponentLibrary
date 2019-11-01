@@ -1,8 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import thumbnails from './thumbnails';
-import macbook from './macbook.png';
+import Thumbnails from './thumbnails';
+
 
 
 storiesOf('thumbnails', module) 
-.add('Email Small', () => <Forms placeholder="Email"
+.add('thumbnail', () => <Thumbnails/>)
+.add('thumbnail2', () => <Thumbnails/>)

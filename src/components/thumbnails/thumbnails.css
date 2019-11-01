@@ -1,0 +1,16 @@
+.thumbnail {
+    width: 270px;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: cornsilk solid 5px;
+}
+
+hr {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
