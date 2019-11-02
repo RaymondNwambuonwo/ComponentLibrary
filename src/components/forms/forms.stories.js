@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Forms from './Forms';
+import Forms from './forms';
 
 
 storiesOf('Forms', module)
