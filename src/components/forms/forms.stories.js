@@ -17,7 +17,7 @@ storiesOf('Forms', module)
     .add('Voucher', () => <Forms placeholder="Voucher" label="Voucher" type="texttwo" small />)
     .add('Voucher2', () => <Forms placeholder="Voucher" label="Voucher" type="texttwo" large />)
 
-    // .add('counter', ()=> <Forms )
+    
 
 
     
