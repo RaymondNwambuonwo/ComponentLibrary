@@ -59,11 +59,11 @@ class Forms extends Component {
         )
     }
     return(
-        <div className="number-input-div">
+        <div className="theCount">
             
-            <div onClick={this.handleDecrease}><button> - </button></div>
-            <p className="number-input-p">{this.state.startingValue}</p>
-            <div onClick={this.handleIncrease}><button> + </button></div>
+            <button onClick={this.handleDecrease} className="Butt"> - </button>
+            <div className="number-input-p">{this.state.startingValue}</div>
+            <button onClick={this.handleIncrease} className="Butt"> + </button>
 
         </div>
     )
@@ -104,11 +104,3 @@ export default Forms;
 
 
 
-const buttonStyle = {
-    backgroundColor: "#F6F7F8",
-    color: "#33A0FF",
-    height: "46px",
-    width: "5px",
-    textAlign: "center",
-    padding: "0"
-  };

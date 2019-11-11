@@ -1,8 +1,39 @@
-.number-input-div {
+.theCount {
     display: flex;
+    background-color: #F6F7F8;
+    /* flex-direction: row; */
+    width: 116px;
+    height: 46px;
+    color: #262626;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    /* border: solid #33A0FF; */
+    /* box-shadow: #000000; */
   }
-  .number-input-p {
-    margin: 0;
-    padding: 15px 30px;
-    background-color: rgba(246, 247, 248, 0.2);
+
+  .Butt {
+    background: none;
+    color: #33A0FF;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
   }
+
+  /* .Minus{
+    background-color: #F6F7F8;
+    color: blue;
+    heig 46px
+    width: 5px
+    textAlign: "center"
+    padding: "0"
+  } */
+
+  /* .Plus{
+    backgroundColor: "#F6F7F8",
+    color: "#33A0FF",
+    height: "46px",
+    width: "5px",
+    textAlign: "center",
+    padding: "0"
+  } */
