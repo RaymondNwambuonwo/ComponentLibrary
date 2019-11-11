@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import './Forms.css';
+import { stat } from 'fs';
 
 class Forms extends Component {
     constructor(props) {
         super(props);
+        this.state= {
+            currentValue: this.props.startingValue
+        }
     }
     render() {
-
+    if(this.props.min){
+        return(<button className></button>)
+    }
     if(this.props.type === 'select') {
         return(
             <form>
