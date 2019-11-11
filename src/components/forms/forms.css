@@ -20,20 +20,33 @@
     cursor: pointer;
   }
 
-  /* .Minus{
-    background-color: #F6F7F8;
-    color: blue;
-    heig 46px
-    width: 5px
-    textAlign: "center"
-    padding: "0"
-  } */
+  .select-css {
+    display: block;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #444;
+    line-height: 1;
+    padding: .5em 1.4em .5em .8em;
+    width: 250px;
+    max-width: 25%;
+    box-sizing: border-box;
+    border-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('./arrow down.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+    display: none;
+}
+.select-css option {
+    font-weight:normal;
+}
 
-  /* .Plus{
-    backgroundColor: "#F6F7F8",
-    color: "#33A0FF",
-    height: "46px",
-    width: "5px",
-    textAlign: "center",
-    padding: "0"
-  } */
+.large{
+    height: 4rem;
+}

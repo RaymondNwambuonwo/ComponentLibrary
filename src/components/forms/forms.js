@@ -34,12 +34,22 @@ class Forms extends Component {
 
 
     render() {
-    if(this.props.type === 'select') {
+    if(this.props.type == "select") {
+        let classList = ""
+        if(this.props.fill){
+            classList += " select-fill"
+        }
+        if(this.props.reg){
+            classList += " select-reg"
+        }
+        if(this.props.large){
+            classList += " select-large"
+        }
         return(
             <form>
-                <select>
-                <option >select</option>
-                </select>
+                <select name = {this.props.name} className = {this.props.special + classList} id="">
+                        <option value="">Select</option>
+                    </select>
             </form>
         )
     }
