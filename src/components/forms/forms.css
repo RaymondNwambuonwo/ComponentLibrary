@@ -1,0 +1,8 @@
+.number-input-div {
+    display: flex;
+  }
+  .number-input-p {
+    margin: 0;
+    padding: 15px 30px;
+    background-color: rgba(246, 247, 248, 0.2);
+  }

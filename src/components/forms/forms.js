@@ -1,18 +1,39 @@
 import React, { Component } from 'react';
 import './Forms.css';
-import { stat } from 'fs';
+// import { stat } from 'fs';
 
 class Forms extends Component {
     constructor(props) {
         super(props);
         this.state= {
-            currentValue: this.props.startingValue
+            startingValue: props.startingValue
+        }
+        this.handleDecrease = this.handleDecrease.bind(this)
+        this.handleIncrease = this.handleIncrease.bind(this)
+    }
+    handleDecrease(evt){
+        evt.preventDefault()
+        let newClick;
+        if (this.state.startingValue !== this.props.min){
+            newClick = this.state.startingValue - this.props.step;
+            this.setState({
+                startingValue: newClick
+            });
         }
     }
+    handleIncrease(evt) {
+        evt.preventDefault();
+        let newClick;
+        if (this.state.startingValue !== this.props.max) {
+          newClick = this.state.startingValue + this.props.step;
+          this.setState({
+            startingValue: newClick
+          });
+        }
+      }
+
+
     render() {
-    if(this.props.min){
-        return(<button className></button>)
-    }
     if(this.props.type === 'select') {
         return(
             <form>
@@ -22,7 +43,6 @@ class Forms extends Component {
             </form>
         )
     }
-
     else if(this.props.type === "text"){
         return(
                 <form>
@@ -38,6 +58,15 @@ class Forms extends Component {
             </form>
         )
     }
+    return(
+        <div className="number-input-div">
+            
+            <div onClick={this.handleDecrease}><button> - </button></div>
+            <p className="number-input-p">{this.state.startingValue}</p>
+            <div onClick={this.handleIncrease}><button> + </button></div>
+
+        </div>
+    )
 }
 }
 
@@ -72,3 +101,14 @@ export default Forms;
 //     }
    
 // }
+
+
+
+const buttonStyle = {
+    backgroundColor: "#F6F7F8",
+    color: "#33A0FF",
+    height: "46px",
+    width: "5px",
+    textAlign: "center",
+    padding: "0"
+  };
