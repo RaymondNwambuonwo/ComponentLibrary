@@ -4,8 +4,8 @@ import Forms from './Forms';
 
 
 storiesOf('Forms', module)
-    .add('Email Small', () => <Forms placeholder="Email" label="Email" type="text" inputType="email" little/>)
-    .add('Email Medium', () => <Forms placeholder="Email" label="Email" type="text" inputType="email" reg/>)
+    .add('Email', () => <Forms placeholder="Email" label="Email" type="text" inputType="email" little/>)
+    .add('Email Reg', () => <Forms placeholder="Email" label="Email" type="text" inputType="email" reg/>)
     .add('Email Large', () => <Forms placeholder="Email" label="Email" type="text" inputType="email" large/>)
 
 

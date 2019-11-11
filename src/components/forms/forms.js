@@ -53,10 +53,20 @@ class Forms extends Component {
             </form>
         )
     }
-    else if(this.props.type === "text"){
+    else if(this.props.type == "text"){
+        let classList = ""
+        if(this.props.litte){
+            classList += " little-email"
+        }
+        if(this.props.reg){
+            classList += " reg-email"
+        }
+        if(this.props.large){
+            classList += " large-email"
+        }
         return(
                 <form>
-                    <input type={this.props.type} placeholder="Email"/>
+                    <input type={this.props.type} placeholder={this.props.placeholder} className = {classList}/>
                 </form>
         )
     }

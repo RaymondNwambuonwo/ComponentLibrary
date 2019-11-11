@@ -47,6 +47,30 @@
     font-weight:normal;
 }
 
-.large{
-    height: 4rem;
+.select-fill{
+	background-color: #FAFAFB;
 }
+.select-reg{
+	font-size: 1rem;
+	width: 300px;
+	height: 46px;
+}
+.select-large{
+	font-size: 1rem;
+	width: 300px;
+	height: 60px;
+}
+
+.large-email{
+    font-size: 1rem;
+	width: 300px;
+	height: 60px;
+}
+
+.reg-email{
+    font-size: 1rem;
+	width: 300px;
+	height: 46px;
+}
+
+
