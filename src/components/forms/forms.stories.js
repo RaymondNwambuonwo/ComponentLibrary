@@ -17,8 +17,8 @@ storiesOf('Forms', module)
     .add('select Fill Reg', () => <Forms type="select" special="select-css" fill reg/>)
     .add('select Fill Large', () => <Forms type="select" special="select-css" fill large/>)
 
-    .add('Voucher', () => <Forms placeholder="Voucher" label="Voucher" type="texttwo" little/>)
-    .add('Voucher Large', () => <Forms placeholder="Voucher" label="Voucher" type="texttwo" large/>)
+    .add('Voucher', () => <Forms placeholder="Voucher Code" type="texttwo" buttonText = "Redeem" little/>)
+    .add('Voucher Large', () => <Forms placeholder="Voucher Code" type="texttwo" buttonText = "Redeem" large/>)
 
     .add('Counter', () => <Forms min= {-20} max= {20} step= {1} startingValue= {0} />)
     

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Forms.css';
-// import { stat } from 'fs';
 
 class Forms extends Component {
     constructor(props) {
@@ -70,18 +69,35 @@ class Forms extends Component {
                 </form>
         )
     }
-
-    else if(this.props.type == "texttwo") {
-        let classList = ""
-        if(this.props.little){
-            classList += " little-voucher"
+    else if(this.props.type == "texttwo" && this.props.placeholder == "Voucher Code"){
+        let classList = "vouch "; 
+        if(this.props.large){
+            classList += " large"
         }
-        return(
-            <form>
-                <input type={this.props.type} placeholder="Voucher"/>
-            </form>
-        )
+            return(
+                <form>
+                    <div className = {classList + " vouch-contain"}>
+                           <input className="vouch-text" type={this.props.type} placeholder= {this.props.placeholder}/>
+                            <button className= "vouch-button">{this.props.buttonText} </button> 
+                        </div>
+                    </form>
+                )
     }
+
+    // if(this.props.type == "texttwo" && this.props.placeholder == "Voucher") {
+    //     let classList = "redeem ";
+    //     if(this.props.largevouch){
+    //         classList += " largevouch"
+    //     }
+    //     return(
+    //         <form>
+    //             <div className = {classList + " vouch-cont"}>
+    //             <input type={this.props.type} placeholder= {this.props.placeholder}/>
+    //             <button className="vouch-button">{this.props.buttonText}</button>
+    //             </div>
+    //         </form>
+    //     )
+    // }
     return(
         <div className="theCount">
             
