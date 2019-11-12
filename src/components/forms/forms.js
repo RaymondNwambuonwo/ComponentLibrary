@@ -55,7 +55,7 @@ class Forms extends Component {
     }
     else if(this.props.type == "text"){
         let classList = ""
-        if(this.props.litte){
+        if(this.props.little){
             classList += " little-email"
         }
         if(this.props.reg){
@@ -71,7 +71,11 @@ class Forms extends Component {
         )
     }
 
-    else if(this.props.type === "texttwo") {
+    else if(this.props.type == "texttwo") {
+        let classList = ""
+        if(this.props.little){
+            classList += " little-voucher"
+        }
         return(
             <form>
                 <input type={this.props.type} placeholder="Voucher"/>
