@@ -20,6 +20,10 @@ storiesOf('Forms', module)
     .add('Voucher', () => <Forms placeholder="Voucher Code" type="texttwo" buttonText = "Redeem" little/>)
     .add('Voucher Large', () => <Forms placeholder="Voucher Code" type="texttwo" buttonText = "Redeem" large/>)
 
+    .add('black checkbox', () => <Forms blackcheck/>)
+    .add('blue checkbox', () => <Forms bluecheck/>)
+    .add('text checkbox', () => <Forms textbox blackcheck/>)
+
     .add('Counter', () => <Forms min= {-20} max= {20} step= {1} startingValue= {0} />)
     
 
