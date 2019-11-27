@@ -37,11 +37,11 @@ storiesOf('Button', module) //where we are naming our group of stories
     .add('Large Outline Default', () => <Button label="Do Something" type="default" outline large/>)
     .add('Large Outline Success', () => <Button label="Do Something" type="success" outline large/>)
 
-    .add('Large Primary Blend', () => <Button label="Do Something" type="primary-blend"/>)
-    .add('Large Danger Blend', () => <Button label="Do Something" type="danger-blend"/>)
-    .add('Large Warning Blend', () => <Button label="Do Something" type="warning-blend"/>)
-    .add('Large Default Blend', () => <Button label="Do Something" type="default-blend"/>)
-    .add('Large Success Blend', () => <Button label="Do Something" type="success-blend"/>)
+    .add('Large Primary Blend', () => <Button label="Do Something" type="primary-blend" blend large/>)
+    .add('Large Danger Blend', () => <Button label="Do Something" type="danger-blend" blend large/>)
+    .add('Large Warning Blend', () => <Button label="Do Something" type="warning-blend" blend large/>)
+    .add('Large Default Blend', () => <Button label="Do Something" type="default-blend" blend large/>)
+    .add('Large Success Blend', () => <Button label="Do Something" type="success-blend" blend large/>)
     
     .add('Carty Icon Words', () => <Button label="Add to Cart" type="primary-blend" icon={cart}/>)
     .add('Hearty Icon Words', () => <Button label="Add to Favorites" type="primary-blend" icon={heart}/>)

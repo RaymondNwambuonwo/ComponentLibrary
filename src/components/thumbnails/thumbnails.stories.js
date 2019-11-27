@@ -7,3 +7,4 @@ import Thumbnails from './thumbnails';
 storiesOf('thumbnails', module) 
 .add('thumbnail', () => <Thumbnails/>)
 .add('thumbnail2', () => <Thumbnails fill/>)
+.add('Horizontal Thumbnail', () => <Thumbnails horizontal/>)

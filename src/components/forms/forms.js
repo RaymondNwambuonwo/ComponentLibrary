@@ -149,35 +149,6 @@ class Forms extends Component {
 
 export default Forms;
 
-// const Forms = (props) => {
-//     let classList = ''
-//     let types = ['select', 'text']
-
-//     if (types.includes(props.type)) {
-//         classList += ` Forms-${props.type}`
-//     }
-//     if (props.inputType === "email"){
-//         return(
-//             <div>
-//                 <form>
-//                     <input type={props.type} className={classList} placeholder="Email"/>
-//                 </form>
-//             </div>
-//         )
-//     }
-//     if (props.inputType === "select"){
-//         return(
-//             <div>
-//                 <form>
-//                     <select className={classList}>
-//                     <option value={props.types}>select</option>
-//                     </select>
-//                 </form>
-//             </div>
-//         )
-//     }
-   
-// }
 
 
 

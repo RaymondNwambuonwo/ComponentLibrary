@@ -5,6 +5,7 @@ import star from './star.svg';
 import price from './price.svg';
 import icons from './icons.svg';
 import iconfill from './iconfill.svg';
+import machori2 from './machori2.svg';
 
 
 class Thumbnails extends Component {
