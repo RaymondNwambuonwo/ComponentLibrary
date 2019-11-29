@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import { storiesOf } from '@storybook/react';
-import Thumbnails from './thumbnails';
+import Thumbnails from './Thumbnails';
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './thumbnails.css';
+import './Thumbnails.css';
 import macbook from './macbook.svg';
 import star from './star.svg';
 import price from './price.svg';
