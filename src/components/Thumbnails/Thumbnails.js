@@ -1,4 +1,4 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import './Thumbnails.css';
 import macbook from './macbook.svg';
 import star from './star.svg';
