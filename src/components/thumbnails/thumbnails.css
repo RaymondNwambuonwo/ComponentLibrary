@@ -9,6 +9,41 @@
     position: relative;
 }
 
+.thumbnail2 {
+    width: 570px;
+    height: 224px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    border: 2px solid #F6F7F8;
+    border-radius: 4px;
+    position: relative;
+}
+
+.thumbnail2:hover{
+    background-color: #FAFAFB;
+}
+
+.thumbnail3 {
+    width: 700px;
+    height: 224px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    border: 2px solid #F6F7F8;
+    border-radius: 4px;
+    position: relative;
+}
+
+.thumbtain{
+    position: relative;
+}
+
+.macer{
+    align-items: center;
+    padding: 50px 0 0 50px;
+}
+
 .mac:hover{
     filter: opacity(10%);
 }
@@ -29,4 +64,74 @@ p {
     position: absolute;
     left: 30%;
     top: 20%;
+}
+
+.container{
+    width: 157px;
+    height: 98px;
+    padding: 50px;
+    
+}
+
+.container2{
+    width: 157px;
+    height: 98px;
+    padding: 30px 50px 50px 0;
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricee{
+   width: 100px;
+}
+
+.but{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.par{
+    text-align: justify;
+}
+
+.apple{
+    text-align: left;
+}
+
+.empt{
+    width: 20px;
+}
+
+.apple2{
+    text-align: left;
+    margin: 0px;
+}
+
+.starr{
+    padding: 20px 0 25px 0;
+}
+
+.starr2{
+    padding: 10px 0 10px 0;
+}
+
+.hot{
+background-color: #ff4858;
+border: #33A0FF;
+position: absolute;
+}
+
+.hot:hover {
+background-color: #F53848;
+border: #33A0FF;
 }

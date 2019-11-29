@@ -93,7 +93,16 @@ margin-right: -2px;
 }
     
 .vouch-button{
-    height: 1.6rem;
+    height: 1.7rem;
+    width: 10em;
+    padding: 0.3em;
+    background-color: #33A0FF;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.vouch-button-large{
+    height: 3.3rem;
     width: 10em;
     padding: 0.3em;
     background-color: #33A0FF;

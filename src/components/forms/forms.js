@@ -123,14 +123,16 @@ class Forms extends Component {
     }
     else if(this.props.type == "texttwo" && this.props.placeholder == "Voucher Code"){
         let classList = "vouch "; 
+        let largeClass = "vouch-button"
         if(this.props.large){
             classList += " large"
+            largeClass += "-large"
         }
             return(
                 <form>
                     <div className = {classList + " vouch-contain"}>
                            <input className="vouch-text" type={this.props.type} placeholder= {this.props.placeholder}/>
-                            <button className= "vouch-button">{this.props.buttonText} </button> 
+                            <button className= {largeClass}>{this.props.buttonText} </button> 
                         </div>
                     </form>
                 )
