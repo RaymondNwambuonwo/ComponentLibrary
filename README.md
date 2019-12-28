@@ -4,7 +4,7 @@ The purpose of this repository/project was create a component library from a moc
 
 ## Website
 
-[Component Library](https://trusting-goldberg-e512bc.netlify.com)
+[Component Library](https://raymondnwambuonwocomponentlibrary.netlify.com)
 
 ## Screenshots
 
